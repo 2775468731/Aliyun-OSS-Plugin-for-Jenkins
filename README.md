@@ -76,5 +76,6 @@ pipeline项目构建的时候，就会触发上传参数
 
 2.降低jenkins磁盘占用率，统一交付仓库。
 
-
 非常感谢原作者提供的框架，若有侵权请联系我删除：2775468731@qq.com
+
+博客地址：https://blog.csdn.net/qq_37822090/article/details/106918659
