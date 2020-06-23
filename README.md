@@ -68,7 +68,13 @@ pipeline项目构建的时候，就会触发上传参数
 原作者:zhimin@fit2cloud.com
 原code地址：https://github.com/fit2cloud/aliyun-oss-plugin
 
-本篇code在的基础上增加了功能：支持通过pipeline完成文件上传 
-优点：原先的构建方式每个jenkins job都需要配置一次Post-build Actions，本篇code可以让多个job复用一条pipeline完成上传操作。
+本篇code在的基础上增加了两个功能：1.支持通过pipeline完成文件上传 2.支持文件上传后删除本地文件
+
+优点：
+
+1.原先的构建方式每个jenkins job都需要配置一次Post-build Actions，本篇code可以让多个job复用一条pipeline完成上传操作。
+
+2.降低jenkins磁盘占用率，统一交付仓库。
+
 
 非常感谢原作者提供的框架，若有侵权请联系我删除：2775468731@qq.com
